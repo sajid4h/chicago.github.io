@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    /* background-color: black; */
+    color: black;
+    
+    border-bottom: 2px solid red;
+}
+/* ------header section css */
+.header{
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: black;
+    min-height: 15vh;
+    text-align: center;
+    padding-top: 20px;
+    font-family: Serif;
+    font-weight: 600;
+    
+}
+.headerText{
+    color:white;
+}
+/* ------end header section css */
+
+/* ------star navbar section css */
+.nav{
+    min-height: 15vh;
+    position: sticky;
+    top :1px;
+    z-index: 4;
+    background: rgba(210, 214, 210, 0.5)
+    
+    
+}
+
+
+.Nava{
+   
+    color: black;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    
+    /* color:black; */
+}
+.Nava:hover{
+    border-bottom: 2px solid red;
+    padding-bottom: 1px;
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+
+}
+.navbarIcon{
+    color:black
+}
+
+/* ------end navbar section css */
+
+/* ------start carousel section css */
+
+.carousel-indicators li{
+    border-radius:50%;
+    width:15px;
+    height:15px;
+    background-color:#aaa;}
+/* ------end carousel section css */
+/* ------start services section css */
+/* .servicesSectionh1{
+    transform: translateX(500px);
+    text-align: center;
+    padding-top:20px;
+    
+} */
+.mainheading{
+    display: block;
+    margin: 0px 0 50px;
+    text-align: center;
+
+} 
+.mainheading h3{
+    display: inline-block;
+    margin-top: 0px;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    line-height: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 4px solid red;
+    color: #3b3b3b;
+}
+.servicesPic{
+    background-color:black;
+    color: white;
+    transition: all 1s ;
+}
+.servicesPic:hover{
+    background-color:white;
+    color: black;
+}
+/* ------end services section css */
+
+/* ------start portfolio section css */
+.portFolioSlider{
+    /* padding:15px 0;
+    margin-top:40px; */
+    background-color: rgba(228, 208, 208, 0.212);
+    /* background-color: rgba(230, 35, 35, 0.212); */
+}
+.cardgallery{
+     display: flex;
+    flex-wrap: wrap;
+     justify-content: space-evenly;
+    gap: 20px;
+
+    
+}
+.cardgallery .card img{
+    width: 100%;
+    height: 250px;
+    /* margin:10px; */
+    
+}
+/* ------end portfolio section css */
+/* ------start fotter section css */
+footer{
+    width: 100%;
+}
+/* ------end fotter section css */
+/* about us page start  */
+/* ------ start about section css */
+
+.mypic img{
+    width: 100%;
+}
+/* ------ end about section css */
+/* ------ start contact-us page css */
+
+/* ------ start contact-us page css */
+/* ------ end contact-us page css */
+
+
+
+    
+
