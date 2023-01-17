@@ -9,7 +9,7 @@ a{
     text-decoration: none;
     color: black;
 }
-.active{
+.nav .active{
     /* background-color: black; */
     color: black;
     
@@ -53,7 +53,7 @@ a{
     transition-duration: 1s;
     transition-timing-function: linear;
     
-    /* color:black; */
+   
 }
 .Nava:hover{
     border-bottom: 2px solid red;
@@ -75,15 +75,8 @@ a{
     border-radius:50%;
     width:15px;
     height:15px;
-    background-color:#aaa;}
-/* ------end carousel section css */
-/* ------start services section css */
-/* .servicesSectionh1{
-    transform: translateX(500px);
-    text-align: center;
-    padding-top:20px;
-    
-} */
+    background-color:transparent;}
+
 .mainheading{
     display: block;
     margin: 0px 0 50px;
@@ -114,10 +107,9 @@ a{
 
 /* ------start portfolio section css */
 .portFolioSlider{
-    /* padding:15px 0;
-    margin-top:40px; */
+  
     background-color: rgba(228, 208, 208, 0.212);
-    /* background-color: rgba(230, 35, 35, 0.212); */
+   
 }
 .cardgallery{
      display: flex;
@@ -130,7 +122,7 @@ a{
 .cardgallery .card img{
     width: 100%;
     height: 250px;
-    /* margin:10px; */
+    
     
 }
 /* ------end portfolio section css */
